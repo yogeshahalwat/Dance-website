@@ -1,0 +1,194 @@
+/* Import the font style------------- */
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pattaya&display=swap');
+
+/* Reset------------ */
+*{
+    top: 0px;
+    margin:0px;
+    padding: 0px;
+}
+
+/* navbar---------------------- */
+#navbar{
+     background-color:teal; 
+    height:30PX ;
+    padding: 11px 3px;
+    font-family: 'Patrick Hand';
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+#navbar ul{
+    display: flex;
+    justify-content: center;
+   
+}
+
+#navbar li {
+    list-style: none;
+}
+
+#navbar li a{
+    color:black;
+    text-decoration: none;
+    padding: 33px;
+}
+#navbar li a:hover{
+    color:white;
+   
+}
+
+/* section------------------- */
+#intro{
+    display: flex;
+   background:url("/static/bg.jpg");
+    background-position: center;
+   background-repeat: no-repeat;
+   background-size:cover; 
+   height:300px;
+   color:black;
+   font-family:'Kanit', sans-serif;
+   font-size:25px;
+   align-items:center; 
+   justify-content:center;
+   flex-direction: column;
+}
+ 
+  
+ /* Mission section----------------------- */
+#Mission  {
+    background:url("/static/bg2.jpg");
+    background-position: center;
+   background-repeat: no-repeat;
+   background-size:cover;
+   font-family: 'Patrick Hand';
+   /* background: rgba(125, 238, 11, 0.651); */
+   height: 300px;
+   
+    
+  
+    
+}
+#Mission h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+   padding: 30px;
+}
+
+.card1{
+    background:url("/static/1.jpg");
+    background-position: center;
+   background-repeat: no-repeat;
+   background-size:cover; 
+    display: inline-block;
+    border-radius: 10px; 
+    border: 2px solid black;
+    width: 30%; 
+    height: 180px;
+    margin: -14px 17px;
+    /* background-color:  rgba(235, 181, 143, 0.781); */
+    opacity: 0.8;
+    font-weight:bold; 
+    
+
+    
+}
+.card2{
+    
+    background:url("/static/2.jpg");
+    background-position: center;
+   background-repeat: no-repeat;
+   background-size:cover; 
+    display: inline-block;
+    border-radius: 10px; 
+    border: 2px solid black;
+    width: 30%; 
+    height: 180px;
+    margin: -14px 17px;
+    /* background-color:  rgba(235, 181, 143, 0.781); */
+    opacity: 0.8;
+    font-weight:bold;
+    
+   
+    
+}
+.card3{
+    color:white;
+    background:url("/static/3.jpg");
+    background-position: center;
+   background-repeat: no-repeat;
+   background-size:cover; 
+    display: inline-block;
+    border-radius: 10px; 
+    border: 2px solid black;
+    width: 30%; 
+    height: 180px;
+    margin: -14px 17px;
+    /* background-color:  rgba(235, 181, 143, 0.781); */
+    opacity: 0.8;
+    font-weight:bold;
+    filter:invert(1); 
+
+    
+}
+.card1 h3{
+   text-align: center;
+   margin:12px
+    
+    
+}
+.card2 h3{
+   text-align: center;
+   margin:12px
+    
+    
+}
+.card3 h3{
+   text-align: center;
+   margin:12px
+    
+    
+}
+.card1 p{
+   text-align: center;
+   margin:12px 20px;
+   font-family: 'Pattaya', sans-serif;
+    
+    
+}
+.card2 p{
+   text-align: center;
+   margin:12px 20px;
+   font-family: 'Pattaya', sans-serif;
+    
+    
+}
+.card3 p{
+   text-align: center;
+   margin:12px 20px;
+   font-family: 'Pattaya', sans-serif;
+    
+    
+}
+
+ /* Fotter section--------------------------    */
+ #fotter{
+     display: flex;
+     justify-content: center;
+     color: white;
+     background-color: black;
+     height:100%;
+ 
+ }
+    
+   
+    
+   
+    
+      
+    
+
+
+
